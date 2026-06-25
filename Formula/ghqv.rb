@@ -11,22 +11,22 @@ class Ghqv < Formula
   on_macos do
     on_arm do
       url "https://github.com/Yicru/ghqv/releases/download/v0.3.1/ghqv_0.3.1_darwin-arm64.tar.gz"
-      sha256 "32bb3e5111b2c8f39bd2769f9990226a0045cb276a8c7bbd962e57434199bbf5"
+      sha256 "a6acac31bb5cfbfd4c700f382e6f594c93f3c55edd526e41b34b70ec1d760af0"
     end
     on_intel do
       url "https://github.com/Yicru/ghqv/releases/download/v0.3.1/ghqv_0.3.1_darwin-x64.tar.gz"
-      sha256 "2444e9237281049687ee09f6c5c0904dacca88250bde10baa21cf7e1caa6644e"
+      sha256 "f652d30ad8ffa9cbe8d15f86fce7e123e3d64d9ae0d771c00c208da97fb8265a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Yicru/ghqv/releases/download/v0.3.1/ghqv_0.3.1_linux-arm64.tar.gz"
-      sha256 "fd7de5bd07f4da02159b767899687c6724a13861e303b5db60c41a7c81a9afca"
+      sha256 "a1b2a69c8cc1ceb0a2e3a230df0f40db66558b24059119a550600fbfe22673c0"
     end
     on_intel do
       url "https://github.com/Yicru/ghqv/releases/download/v0.3.1/ghqv_0.3.1_linux-x64.tar.gz"
-      sha256 "5759a1adcc7ace7fc069eb5cb809fac6e56255b75eb13562a8f4766918bb80a8"
+      sha256 "95c38aefd62a0db8d371a22f0d6484c5330e962e477a5cd1c1c57cc7dbb9dfbd"
     end
   end
 
