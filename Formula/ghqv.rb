@@ -3,30 +3,30 @@ class Ghqv < Formula
   desc "Virtual monorepo workspace manager for ghq-managed repositories"
   homepage "https://github.com/Yicru/ghqv"
   license "MIT"
-  version "0.2.2"
+  version "0.3.0"
 
   depends_on "ghq"
   depends_on "fzf"
 
   on_macos do
     on_arm do
-      url "https://github.com/Yicru/ghqv/releases/download/v0.2.2/ghqv_0.2.2_darwin-arm64.tar.gz"
-      sha256 "658c729706786af04d48fff3833e8c139cb0f0fb81d01bf07d5f059c9d12fc7f"
+      url "https://github.com/Yicru/ghqv/releases/download/v0.3.0/ghqv_0.3.0_darwin-arm64.tar.gz"
+      sha256 "b7f357b52061dfec75236c127dbeb9267b5530dbb372f7b6337ce45621a81da4"
     end
     on_intel do
-      url "https://github.com/Yicru/ghqv/releases/download/v0.2.2/ghqv_0.2.2_darwin-x64.tar.gz"
-      sha256 "e760d0a35b008dfc0890eed65aa0d23721f3862454ab9537283f1af694c3852c"
+      url "https://github.com/Yicru/ghqv/releases/download/v0.3.0/ghqv_0.3.0_darwin-x64.tar.gz"
+      sha256 "29909d52487e53fe4d69b2e0c824cfba427286052a2b57d9cee44aa20aaf7eed"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Yicru/ghqv/releases/download/v0.2.2/ghqv_0.2.2_linux-arm64.tar.gz"
-      sha256 "15b78fef0691bceefcbe6f42d376c4b1fb6e0acf6eb8731387e8f062c71ea5b6"
+      url "https://github.com/Yicru/ghqv/releases/download/v0.3.0/ghqv_0.3.0_linux-arm64.tar.gz"
+      sha256 "7cfda3b9beec44d4609fdb80ad54f1f01a1dfa12c20e2f39625c086d44440d8e"
     end
     on_intel do
-      url "https://github.com/Yicru/ghqv/releases/download/v0.2.2/ghqv_0.2.2_linux-x64.tar.gz"
-      sha256 "bdc503e7bec04f3dce28e1150ddfd0c3a545201aba40e4ae70b954c5289a71fe"
+      url "https://github.com/Yicru/ghqv/releases/download/v0.3.0/ghqv_0.3.0_linux-x64.tar.gz"
+      sha256 "21b597cdc53a67f280aa980fcca6febdeeb9d804eeeb640b259677878ecb3461"
     end
   end
 
